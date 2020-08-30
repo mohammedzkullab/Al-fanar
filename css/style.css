@@ -15,15 +15,14 @@ body{
     color: #8E8E8E;
 }
 .primary-button{
-    background: #2F55D4;
-    color: #fff;
+    background: #2F55D4 !important;
+    color: #fff !important;
 }
 .secondary-button{
     background: #2F55D41C !important;
-    color: #2F55D4;
-    border: 1px solid #2F55D4;
-    border-radius: 3px;
-    padding: 14px 54px ;
+    color: #2F55D4 !important;
+    border: 1px solid #2F55D4 !important;
+    border-radius: 3px !important;
 }
 .btn:hover{
     box-shadow: 0px 0px 27px #FFFFFFB0;
@@ -36,6 +35,9 @@ body{
 nav{
     background: #F8FAFEF2;
     height: 101px !important;
+}
+.hum-icon{
+    border: none;
 }
 .hero{
     background: url(../images/bg.png) no-repeat center center/cover ;
@@ -59,7 +61,8 @@ nav{
     border-radius: 9px 9px 0 0 ;
 }
 .slider-but{
-   width:40px !important;
+   width:16px !important;
+   height: 40px !important;
    border-radius: 20px;
    background:#FFFFFF;
 
@@ -73,5 +76,14 @@ nav{
     background: #2F55D4;
     color: #fff;
     cursor: pointer;
-    
+}
+.hover-state:hover small {
+    color: #fff;
+
+}
+.hover-state:hover button {
+    background: #fff;
+    color: #2F55D4;
+    border: none;
+    outline: white;
 }

@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    height: 5000px;
+    
+}
+.primery-color{
+    color: #2F55D4;
+}
+.secondery-color{
+    color: #8E8E8E;
+}
+.primary-button{
+    background: #2F55D4;
+    color: #fff;
+}
+.secondary-button{
+    background: #2F55D41C !important;
+    color: #2F55D4;
+    border: 1px solid #2F55D4;
+    border-radius: 3px;
+    padding: 14px 54px ;
+}
+.btn:hover{
+    box-shadow: 0px 0px 27px #FFFFFFB0;
+    outline: 2px solid #FFF;
+}
+
+
+
+/*style*/
+nav{
+    background: #F8FAFEF2;
+    height: 101px !important;
+}
+.hero{
+    background: url(../images/bg.png) no-repeat center center/cover ;
+    height: 100vh;
+    /* padding-top: 200px !important; */
+}
+.hero-1{
+    background: url(../images/Group\ 9.png) no-repeat center  ;
+}
+.hero-2{
+    background: #F8FAFE;
+    height: 140vh;
+
+}
+
+.back{
+    z-index: -1;
+}
+.card-layer{
+    background:#fff;
+    border-radius: 9px 9px 0 0 ;
+}
+.slider-but{
+   width:40px !important;
+   border-radius: 20px;
+   background:#FFFFFF;
+
+}
+.slider-but:hover{
+    box-shadow: 0px 0px 15px #0000001A ;
+    cursor: pointer;
+ 
+}
+.hover-state:hover{
+    background: #2F55D4;
+    color: #fff;
+    cursor: pointer;
+    
+}

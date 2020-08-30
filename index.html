@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick.scss">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link
@@ -21,7 +23,7 @@
 
     <!--  Nav Bar       -->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light ">
         <a class="navbar-brand" href="#">
             <img src="./images/alfanar-logo.png" alt="">
         </a>
@@ -33,29 +35,229 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <li class="nav-item active primery-color">
+                    <a class="nav-link primery-color " href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item list-li ">
+                    <a class="nav-link list-li" href="#">Latest News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Latest News</a>
+                    <a class="nav-link list-li" href="#">Policies</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Policies</a>
+                    <a class="nav-link list-li" href="#">Contact us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Help</a>
+                    <a class="nav-link list-li" href="#">Help</a>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <i class="fas fa-globe-asia mx-4"></i>
-                <button class="btn  secondary-button my-2 my-sm-0 px-5 py-2" type="submit">login</button>
+                <i class="fas fa-globe-asia mx-4 primery-color" style="cursor: pointer;"></i>
+                <button class="btn secondary-button  my-2 my-sm-0 px-5 py-2" type="submit">login</button>
             </form>
         </div>
     </nav>
 
+    <!-- First Container  : Hero -->
+    <div class="d-flex justify-content-center align-items-center pt-3 hero">
+        <section class=" text-center d-flex flex-column justify-content-center align-items-center">
+            <h1 class="h1 font-weight-bold text-white mt-5 ">ALFANAR SUPPLIER PORTAL</h1>
+            <p class="text-center text-white font-weight-light mt-4 w-50" style="font-size: 20px;">Together we grow
+                and expand our businesses, and
+                explore new ways to do it in a socially and environmentally conscious way.</p>
+
+            <button class="btn btn-primary mt-4 ">
+                Request to join Alfanar suppliers network
+            </button>
+        </section>
+
+    </div>
+
+
+    <!-- Second container : Card slider -->
+    <section class="d-grid my-5">
+        <div class="row responsive">
+            <div class=" col offset-1 items ">
+                <!--  Start Card     -->
+                <div>
+                    <div class="card border-none ">
+                        <img src="./images/action-artisan-burnt-construction-1145434@3x.png" class="card-img-top"
+                            alt="...">
+                        <div class="card-body " style="margin-top: -70px;padding-bottom: 10px;">
+                            <div class="card-layer p-2 hover-state">
+                                <small class="mt-5 ml-2 primery-color">23-Jul-2020</small>
+                                <h5 class="card-title font-weight-bold ml-2">First News Title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                    sed
+                                    diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                                    sed
+                                    diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                                    clita kasd</p>
+
+                                <button class="btn btn-primary primary-button mb-4">
+                                    Read More
+                                    <img src="./images/icons8-right-arrow-32.png" style="width: 24px;" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--    End Card        -->
+            </div>
+
+            <div class=" col offset-1 items ">
+                <!--  Start Card     -->
+                <div>
+                    <div class="card border-none ">
+                        <img src="./images/action-artisan-burnt-construction-1145434@3x.png" class="card-img-top"
+                            alt="...">
+                        <div class="card-body " style="margin-top: -70px;padding-bottom: 10px;">
+                            <div class="card-layer p-2 hover-state">
+                                <small class="mt-5 ml-2 primery-color">23-Jul-2020</small>
+                                <h5 class="card-title font-weight-bold ml-2">First News Title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                    sed
+                                    diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                                    sed
+                                    diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                                    clita kasd</p>
+
+                                <button class="btn btn-primary primary-button mb-4">
+                                    Read More
+                                    <img src="./images/icons8-right-arrow-32.png" style="width: 24px;" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--    End Card        -->
+            </div>
+            <div class=" col offset-1 items ">
+                <!--  Start Card     -->
+                <div>
+                    <div class="card border-none ">
+                        <img src="./images/action-artisan-burnt-construction-1145434@3x.png" class="card-img-top"
+                            alt="...">
+                        <div class="card-body " style="margin-top: -70px;padding-bottom: 10px;">
+                            <div class="card-layer p-2 hover-state">
+                                <small class="mt-5 ml-2 primery-color">23-Jul-2020</small>
+                                <h5 class="card-title font-weight-bold ml-2">First News Title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                    sed
+                                    diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                                    sed
+                                    diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                                    clita kasd</p>
+
+                                <button class="btn btn-primary primary-button mb-4">
+                                    Read More
+                                    <img src="./images/icons8-right-arrow-32.png" style="width: 24px;" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--    End Card        -->
+            </div>
+            <div class=" col offset-1 items ">
+                <!--  Start Card     -->
+                <div>
+                    <div class="card border-none ">
+                        <img src="./images/action-artisan-burnt-construction-1145434@3x.png" class="card-img-top"
+                            alt="...">
+                        <div class="card-body " style="margin-top: -70px;padding-bottom: 10px;">
+                            <div class="card-layer p-2 hover-state">
+                                <small class="mt-5 ml-2 primery-color">23-Jul-2020</small>
+                                <h5 class="card-title font-weight-bold ml-2">First News Title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                    sed
+                                    diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                                    sed
+                                    diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                                    clita kasd</p>
+
+                                <button class="btn btn-primary primary-button mb-4">
+                                    Read More
+                                    <img src="./images/icons8-right-arrow-32.png" style="width: 24px;" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--    End Card        -->
+            </div>
+            <div class=" col offset-1 items ">
+                <!--  Start Card     -->
+                <div>
+                    <div class="card border-none ">
+                        <img src="./images/action-artisan-burnt-construction-1145434@3x.png" class="card-img-top"
+                            alt="...">
+                        <div class="card-body " style="margin-top: -70px;padding-bottom: 10px;">
+                            <div class="card-layer p-2 hover-state">
+                                <small class="mt-5 ml-2 primery-color">23-Jul-2020</small>
+                                <h5 class="card-title font-weight-bold ml-2">First News Title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                    sed
+                                    diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                                    sed
+                                    diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                                    clita kasd</p>
+
+                                <button class="btn btn-primary primary-button mb-4">
+                                    Read More
+                                    <img src="./images/icons8-right-arrow-32.png" style="width: 24px;" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--    End Card        -->
+            </div>
+            <div class=" col offset-1 items ">
+                <!--  Start Card     -->
+                <div>
+                    <div class="card border-none ">
+                        <img src="./images/action-artisan-burnt-construction-1145434@3x.png" class="card-img-top"
+                            alt="...">
+                        <div class="card-body " style="margin-top: -70px;padding-bottom: 10px;">
+                            <div class="card-layer p-2 hover-state">
+                                <small class="mt-5 ml-2 primery-color">23-Jul-2020</small>
+                                <h5 class="card-title font-weight-bold ml-2">First News Title</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+                                    sed
+                                    diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+                                    sed
+                                    diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                                    clita kasd</p>
+
+                                <button class="btn btn-primary primary-button mb-4">
+                                    Read More
+                                    <img src="./images/icons8-right-arrow-32.png" style="width: 24px;" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--    End Card        -->
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
 
 
 
@@ -74,17 +276,52 @@
 
 
 
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/custom.js"></script>
+    <!--
+         $(document).ready(function () {
+            $('.responsive').slick({
+                dots: true,
+                infinite: false,
+                speed: 300,
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                            infinite: true,
+                            dots: true
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                    // You can unslick at a given breakpoint now by adding:
+                    // settings: "unslick"
+                    // instead of a settings object
+                ]
+            });
+        });
 
 
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
+    
+    -->
 </body>
 
 </html>

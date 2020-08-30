@@ -9,10 +9,10 @@ body{
     
 }
 .primery-color{
-    color: #2F55D4;
+    color: #2F55D4!important;
 }
 .secondery-color{
-    color: #8E8E8E;
+    color: #8E8E8E!important;
 }
 .primary-button{
     background: #2F55D4 !important;
@@ -20,7 +20,7 @@ body{
 }
 .secondary-button{
     background: #2F55D41C !important;
-    color: #2F55D4 !important;
+    color: #2F55D4!important;
     border: 1px solid #2F55D4 !important;
     border-radius: 3px !important;
 }
@@ -35,6 +35,12 @@ body{
 nav{
     background: #F8FAFEF2;
     height: 101px !important;
+}
+.list-li{
+    font-size: 20px;
+}
+.list-li:hover{
+    color: #2F55D4 !important;
 }
 .hum-icon{
     border: none;
@@ -87,3 +93,17 @@ nav{
     border: none;
     outline: white;
 }
+
+/*********************************/
+/* .for-slick-slider{
+    display: flex;
+}
+.for-slick-slider .items {
+    width: 350px;
+    height: 250px;
+    margin: 50px;
+}
+.for-slick-slider .items img {
+    width: 350px;
+    height: 250px;
+} */

@@ -5,9 +5,11 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
-    height: 5000px;
     background: #F8FAFE!important;
     
+}
+a{
+    text-decoration: none !important;
 }
 .primery-color{
     color: #2F55D4!important;
@@ -19,17 +21,26 @@ body{
     background: #2F55D4 !important;
     color: #fff !important;
 }
+.button-hover-state:hover{
+    box-shadow: 0px 0px 27px #FFFFFFB0;
+    outline: 2px solid #FFF;
+}
+
 .secondary-button{
     background: #2F55D41C !important;
     color: #2F55D4!important;
     border: 1px solid #2F55D4 !important;
     border-radius: 3px !important;
 }
-.btn:hover{
-    box-shadow: 0px 0px 27px #FFFFFFB0;
-    outline: 2px solid #FFF;
+.slick-arrow{
+    background: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-radius: 50%;
 }
-
 
 
 /*style*/

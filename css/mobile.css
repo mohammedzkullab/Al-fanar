@@ -1,0 +1,26 @@
+/*  small queries */
+@media(max-width: 576px) {
+.login-button{
+    display: none !important;
+}
+.res-login-button{
+    display: block!important;
+}
+
+}
+/***/
+@media(max-width: 768px){
+
+}
+/***/
+@media(max-width: 992px){
+    .three-cards{
+        flex-direction: column!important;
+    }
+    .announce-button{
+        display: inline!important;
+       
+    }
+}
+
+

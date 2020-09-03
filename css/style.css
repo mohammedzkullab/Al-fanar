@@ -57,6 +57,7 @@ a{
 nav{
     background: #F8FAFEF2;
     height: 101px !important;
+    box-shadow: 0px 9px 33px #00000012 !important;
 }
 .list-li{
     font-size: 20px;

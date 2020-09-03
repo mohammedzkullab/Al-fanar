@@ -45,6 +45,11 @@
         .lists{
             margin-top: 0 !important;
         }
+        .nav-links-group{
+            background: #F8FAFEF2;
+             border-radius: 5px;
+             padding: 20px 0 !important;
+        }
     }
     
 

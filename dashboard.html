@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <link rel="stylesheet" href="./css/slick.scss" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/58c7f25f8e.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+
+</head>
+
+<body>
+    <!--   Start here   -->
+
+    <!--  Nav Bar       -->
+
+    <nav class="navbar fixed-top navbar-expand-lg d-flex justify-content-between align-items-center navbar-light"
+        id="navbar">
+        <a class="navbar-brand" href="index.html">
+            <img src="./images/alfanar-logo.png" alt="" />
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+            style="border: none; outline: none">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav d-grid m-auto burger-list">
+                <div class="row lists p-5" style="margin-top: -350px ;">
+                    <div class="col lists " style="margin-top: -350px ;">
+                        <li class="nav-item  primery-color mr-4">
+                            <a class="nav-link list-li" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item list-li mr-4">
+                            <a class="nav-link list-li" href="index.html#latest-news">Invoices</a>
+                        </li>
+                        <li class="nav-item mr-4">
+                            <a class="nav-link list-li" href="index.html#policies">Orders</a>
+                        </li>
+                        <li class="nav-item mr-4">
+                            <a class="nav-link list-li" href="index.html#rfq">Deliveries</a>
+                        </li>
+                        <li class="nav-item mr-4">
+                            <a class="nav-link list-li" href="index.html#rfq">Reconciliation</a>
+                        </li>
+                    </div>
+                    <div class="col lists" style="margin-top: -350px ;">
+                        <li class="nav-item  primery-color mr-4">
+                            <a class="nav-link list-li" href="index.html">Inventory</a>
+                        </li>
+                        <li class="nav-item list-li mr-4">
+                            <a class="nav-link list-li" href="index.html#latest-news">Quality</a>
+                        </li>
+                        <li class="nav-item mr-4">
+                            <a class="nav-link list-li" href="index.html#policies">Enquiries</a>
+                        </li>
+                        <li class="nav-item mr-4">
+                            <a class="nav-link list-li" href="index.html#rfq">Documents</a>
+                        </li>
+                        <li class="nav-item mr-4">
+                            <a class="nav-link list-li" href="index.html#rfq" style="color: #ff6565;">Logout</a>
+                        </li>
+                    </div>
+                </div>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0 login-button">
+                <i class="fas fa-globe-asia mx-4 primery-color" style="cursor: pointer"></i>
+                <div class="dropdown border-0" style="background: transparent; outline: none!important;" name="" id="">
+                    <button class="btn dropdown-toggle outline-none" type="button" data-toggle="dropdown"
+                        style="background: transparent !important;">Welcome Mahmoud</button>
+
+
+                    <!-- options -->
+                    <div class="dropdown-menu">
+                        <a href="" class="dropdown-item">go to profile <i class="far fa-user-circle ml-5"></i></a>
+                        <div class="dropdown-divider"></div>
+                        <a href="" class="dropdown-item">settings</a>
+                        <div class="dropdown-divider"></div>
+                        <a href="" class="dropdown-item " style="color: #ff6565;">logout</a>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </nav>
+
+
+    <!--  content -->
+    <!---->
+
+    <div style="margin-top: 100px;">
+        <div class="wrapper" style=" background: #fff!important;">
+
+            <nav class="d-flex flex-column  " id="sidebar">
+
+
+                <ul class="list-unstyled components">
+
+                    <li class="active">
+                        <a href="#homeSubmenu">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Invoices</a>
+                    </li>
+                    <li>
+                        <a href="#">Orders</a>
+                    </li>
+                    <li>
+                        <a href="#">Deliveries</a>
+                    </li>
+                    <li>
+                        <a href="#">Inventory</a>
+                    </li>
+                    <li>
+                        <a href="#">Quality</a>
+                    </li>
+                </ul>
+                <ul class="list-unstyled components" style="border-bottom: none;">
+                    <li>
+                        <a href=" #">Enquiries</a>
+                    </li>
+                    <li>
+                        <a href="#">Documents</a>
+                    </li>
+                    <li>
+                        <a href="#">Reconciliation</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- Content-->
+            <div class="m-5">
+                <ul class="list-unstyled components" style="border-bottom: none;">
+                    <li>
+                        <h5 class="font-weight-bold">Home</h4>
+                    </li>
+
+                </ul>
+                <h5 class="font-weight-bold">Statistical Reports</h5>
+
+                <div class="d-grid ">
+                    <div class="row">
+                        <!-- start of card -->
+                        <div class="col dash-card mt-4 mr-5 py-4 px-5" class="border:none !important;">
+                            <small>Total Orders</small>
+                            <div>
+
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <div class="mr-5">
+                                        <h1 class="h2 font-weight-bold ">178,080</h1>
+                                        <small class="primery-color">SAR</small>
+                                    </div>
+                                    <img class="ml-3" src="./images/Icon.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of card -->
+                        <!-- start of card -->
+                        <div class="col dash-card mt-4 mr-5 py-4 px-5" class="border:none !important;">
+                            <small>Total Payments</small>
+                            <div>
+
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <div class="mr-5">
+                                        <h1 class="h2 font-weight-bold ">270,000</h1>
+                                        <small class="primery-color">SAR</small>
+                                    </div>
+                                    <img class="ml-3" src="./images/Icon-1.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of card -->
+                        <!-- start of card -->
+                        <div class="col dash-card mt-4 mr-5 py-4 px-5" class="border:none !important;">
+                            <small>Total Sales</small>
+                            <div>
+
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <div class="mr-5">
+                                        <h1 class="h2 font-weight-bold ">178,080</h1>
+                                        <small class="primery-color">SAR</small>
+                                    </div>
+                                    <img class="ml-3" src="./images/Icon-2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of card -->
+                        <!-- start of card -->
+                        <div class="col dash-card mt-4 mr-5 py-4 px-5" class="border:none !important;">
+                            <small>Order In-Process</small>
+                            <div>
+
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <div class="mr-5">
+                                        <h1 class="h2 font-weight-bold ">10</h1>
+                                    </div>
+                                    <img class="ml-3" src="./images/Icon-3.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of card -->
+
+                    </div>
+
+
+
+                    <!--    ****   -->
+
+
+                    <ul class="list-unstyled components mt-5 ml-3" style="border-bottom: none;">
+                        <li>
+                            <h5 class="font-weight-bold">Quick Actions</h4>
+                        </li>
+
+                    </ul>
+
+                    <div class="row">
+                        <!-- start of card -->
+                        <div class="col dash-card mt-4 mr-5 py-4 px-5" class="border:none !important;" style="padding-left: 4rem !important;
+                        padding-right: 4rem !important;">
+                            <div>
+                                <div class="d-flex flex-column justify-content-center align-items-center mt-2">
+                                    <img class="" src="./images/Group 705.png" alt="">
+                                    <div class="mt-3">
+                                        <h1 class="h5 text-center">+Generate an invoice</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of card -->
+                        <!-- start of card -->
+                        <div class="col dash-card mt-4 mr-5 py-4 px-5" class="border:none !important;" style="padding-left: 4rem !important;
+                        padding-right: 4rem !important;">
+                            <div>
+                                <div class="d-flex flex-column justify-content-center align-items-center mt-2">
+                                    <img class="" src="./images/Group 706.png" alt="">
+                                    <div class="mt-3">
+                                        <h1 class="h5 text-center">+Generate an invoice</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of card -->
+                        <!-- start of card -->
+                        <div class="col dash-card mt-4 mr-5 py-4 px-5" class="border:none !important;" style="padding-left: 4rem !important;
+                        padding-right: 4rem !important;">
+                            <div>
+                                <div class="d-flex flex-column justify-content-center align-items-center mt-2">
+                                    <img class="" src="./images/Group 707.png" alt="">
+                                    <div class="mt-3">
+                                        <h1 class="h5 text-center">+Generate an invoice</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of card -->
+                        <!-- start of card -->
+                        <div class="col dash-card mt-4 mr-5 py-4 px-5" class="border:none !important;" style="padding-left: 4rem !important;
+                        padding-right: 4rem !important;">
+                            <div>
+                                <div class="d-flex flex-column justify-content-center align-items-center mt-2">
+                                    <img class="" src="./images/Group 708.png" alt="">
+                                    <div class="mt-3">
+                                        <h1 class="h5 text-center">+Generate an invoice</h1>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End of card -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+
+
+
+
+
+    <!--  Footer-->
+    <footer class="d-flex justify-content-center align-items-center pt-3" style="background: #001661 !important">
+        <ul class="d-flex justify-content-between  list-unstyled components text-white">
+            <li class="mr-5"> Copyrights</li>
+            <li class="mr-5">Data Privacy</li>
+            <li class="mr-5">Terms of use</li>
+        </ul>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="./js/slick.js"></script>
+    <script src="./js/custom.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+
+        });
+
+    </script>
+</body>
+
+</html>

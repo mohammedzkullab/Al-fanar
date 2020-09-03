@@ -2,7 +2,7 @@ $(function () {
     $('.responsive').slick({
         dots: false,
         infinite: false,
-        autoplay: false,
+        autoplay: true,
         autoplayspeed: 2000,
         speed: 500,
         slidesToShow: 3,
@@ -56,7 +56,7 @@ $(function () {
     $('.responsive-1').slick({
         dots: false,
         infinite: false,
-        autoplay: false,
+        autoplay: true,
         autoplayspeed: 2000,
         speed: 500,
         slidesToShow: 2,

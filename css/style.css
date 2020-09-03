@@ -3,11 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+/*
+ <form class="form-inline my-2 my-lg-0 login-button">
+            <i class="fas fa-globe-asia mx-4 primery-color" style="cursor: pointer"></i>
+            <div class="dropdown border-0" style="background: transparent; outline: none!important;" name="" id="">
+                <button class="btn dropdown-toggle outline-none" type="button" data-toggle="dropdown"
+                    style="background: transparent !important;">Welcome Mahmoud</button>
+
+
+                <!-- options -->
+                <div class="dropdown-menu">
+                    <a href="" class="dropdown-item">go to profile <i class="far fa-user-circle ml-5"></i></a>
+                    <div class="dropdown-divider"></div>
+                    <a href="" class="dropdown-item">settings</a>
+                    <div class="dropdown-divider"></div>
+                    <a href="" class="dropdown-item " style="color: #ff6565;">logout</a>
+                </div>
+
+            </div>
+        </form>
+*/
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
     background: #F8FAFE!important;
     overflow-x: hidden !important;
-    
 }
 a{
     text-decoration: none !important;
@@ -123,14 +142,105 @@ nav{
     color: #fff !important;
     fill: #fff !important;
 }
-.shadow-state{
+.shadow-state:hover {
     box-shadow: 0px 14px 26px #2F55D426;
 }
 .border-none{
     border:none !important;
 }
 
+
+
+
+/********************************/
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+}
+
+#sidebar.active {
+    margin-left: -250px;
+}
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    transition: all 0.3s;
+}
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+/* .dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+} */
+#sidebar .sidebar-header {
+    padding: 20px;
+   
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #212C5324;
+}
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 1.1em;
+    display: block;
+    color: #212C53;
+}
+
+
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #212C53;
+    font-weight: bold;
+    border-left: 3px solid #212C53;
+    border-radius: 0 10px 10px 0 ;
+}
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #212C53;
+}
 /*********************************/
+.burger{
+    display: none !important;
+}
+.dash-card {
+    border-radius: 10px;
+    box-shadow: 0 10px 30px #D1D5DF80; 
+}
+.dash-card small{
+    color: #858997;
+}
+.burger-list{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 10px 30px #D1D5DF80; 
+}
+/******************************/
+
 /* .for-slick-slider{
     display: flex;
 }

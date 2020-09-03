@@ -10,9 +10,10 @@
 }
 /***/
 @media(max-width: 768px){
-
     
-}
+    }
+    
+
 /***/
 @media(max-width: 992px){
     .three-cards{
@@ -28,8 +29,25 @@
     .res-login-button{
         display: block!important;
     }
+    .login-button{
+        display: none !important;
+    }
+
+        #sidebar {
+            margin-left: -250px;
+        }
+        #sidebar.active {
+            margin-left: 0;
+        }
+        .burger{
+            display: flex!important;
+        }
+        .lists{
+            margin-top: 0 !important;
+        }
+    }
     
-}
+
 /***/
 @media(max-width: 1120px){
     .cont{
@@ -42,6 +60,14 @@ align-items:center ;
     }
     .svg-title img {
         display: none !important;
+    }
+    #dash-brand{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #dash-brand-t{
+        margin: 0 !important;
     }
  
 }

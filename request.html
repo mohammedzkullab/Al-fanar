@@ -35,7 +35,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav m-auto">
                 <li class="nav-item  primery-color mr-4">
-                    <a class="nav-link list-li" href="index.html#home">Home</a>
+                    <a class="nav-link list-li" href="index.html">Home</a>
                 </li>
                 <li class="nav-item list-li mr-4">
                     <a class="nav-link list-li" href="index.html#latest-news">Latest News</a>
@@ -50,9 +50,9 @@
             </ul>
             <form class="form-inline my-2 my-lg-0 login-button">
                 <i class="fas fa-globe-asia mx-4 primery-color" style="cursor: pointer"></i>
-                <button class="btn secondary-button my-2 my-sm-0 px-5 py-2" type="submit">
+                <a class="btn secondary-button my-2 my-sm-0 px-5 py-2" href="./login.html" target="">
                     login
-                </button>
+                </a>
             </form>
         </div>
     </nav>
@@ -66,173 +66,174 @@
             <div class=" mt-5  ">
 
                 <div class="col ss  d-flex  flex-column justify-content-center align-items-center ">
-                    <h1 class="font-weight-bold text-center" style="font-size: 19px!important;">Request to Join Al-Fana Suppliers
+                    <h1 class="font-weight-bold text-center" style="font-size: 19px!important;">Request to Join Al-Fana
+                        Suppliers
                         Network</h1>
                     <p class="text-center mt-3">Request to register suppliers and add some information and details about
                         them
                     </p>
                     <img src="./images/Group 611.svg" class="mt-5" alt="">
-
                 </div>
             </div>
-            <div class=" mt-5">
 
+            <div>
                 <div class="col d-grid ">
-                    <div class="form-row">
-                        <div class="col-md-6 mb-3">
-                            <label for="validationCustom01">Vendor Name</label>
-                            <input type="text" class="form-control" id="validationCustom01" value="Legal Full Name"
-                                required>
-                            <div class="valid-feedback">
-                                Looks good!
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <label for="validationCustom04">Vendor Country</label>
-                            <select class="custom-select" id="validationCustom04" required>
-                                <option selected disabled value="">Select country</option>
-                                <option>Select country1</option>
-                                <option>Select country2</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Please select a valid state.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="col-md-6 mb-3">
-                            <label for="validationCustom04">Vendor Type</label>
-                            <select class="custom-select" id="validationCustom04" required>
-                                <option selected disabled value="">Manufactures</option>
-                                <option>Manufactures1</option>
-                                <option>Manufactures2</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Please select a valid state.
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <label for="validationCustom04">Service / Material Providing</label>
-                            <select class="custom-select" id="validationCustom04" required>
-                                <option selected disabled value="">Steel</option>
-                                <option>Steel1</option>
-                                <option>Steel2</option>
-                            </select>
-                            <div class="invalid-feedback">
-                                Please select a valid state.
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="form-row">
-                        <div class="col-md-6 mb-3">
-                            <label for="validationCustom01">Contact "First Name"</label>
-                            <input type="text" class="form-control" id="validationCustom01" placeholder="e.g. Jhon"
-                                required>
-                            <div class="valid-feedback">
-                                Looks good!
-                            </div>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <label for="validationCustom02">Contact "Last Name"</label>
-                            <input type="text" class="form-control" id="validationCustom02" placeholder="e.g. Smith"
-                                required>
-                            <div class="valid-feedback">
-                                Looks good!
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="col-md-6 mb-3">
-                            <label for="validationCustom04">Contact "Phone Number"</label>
-                            <div class="input-group mb-2 mr-sm-2">
-                                <div class="input-group-prepend  " style="background: #fff!important;">
-                                    <div class="btn-group ">
-                                        <!-- CURRENCY, BOOTSTRAP DROPDOWN -->
-                                        <!--<a class="btn btn-primary" href="javascript:void(0);">Currency</a>-->
-                                        <a class="dropdown-toggle px-1 pt-1"
-                                            style="border: 0.5px solid #B8C0D9; margin: 0 !important; border-right: none important; border-radius: 0.25rem;"
-                                            data-toggle="dropdown" href="#"><img src="./images/saudi-arabia.png"><span
-                                                class="caret"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="javascript:void(0);">
-                                                    <img src="./images/saudi-arabia.png" /> AUD</a>
-                                            </li>
-                                            <li><a href="javascript:void(0);">
-                                                    <img src="./images/saudi-arabia.png" /> AUD</a>
-                                            </li>
-                                            <li><a href="javascript:void(0);">
-                                                    <img src="./images/saudi-arabia.png" /> AUD</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
+                    <form action="post">
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="validationCustom01">Vendor Name</label>
+                                <input type="text" class="form-control font-weight-bold" id="validationCustom01"
+                                    value="Legal Full Name" required>
+                                <div class="valid-feedback">
+                                    Looks good!
                                 </div>
-                                <input type="text" class="form-control" id="inlineFormInputGroupUsername2"
-                                    placeholder="Username">
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="validationCustom04">Vendor Country</label>
+                                <select class="custom-select" id="validationCustom04" required>
+                                    <option selected disabled value="">Select country</option>
+                                    <option>Select country1</option>
+                                    <option>Select country2</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please select a valid state.
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-6 mb-3">
-                            <label for="validationCustom02">Contact "Position"</label>
-                            <input type="text" class="form-control" id="validationCustom02" placeholder="e.g. Position"
-                                required>
-                            <div class="valid-feedback">
-                                Looks good!
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="validationCustom04">Vendor Type</label>
+                                <select class="custom-select" id="validationCustom04" required>
+                                    <option selected disabled value="">Manufactures</option>
+                                    <option>Manufactures1</option>
+                                    <option>Manufactures2</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please select a valid state.
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="validationCustom04">Service / Material Providing</label>
+                                <select class="custom-select" id="validationCustom04" required>
+                                    <option selected disabled value="">Steel</option>
+                                    <option>Steel1</option>
+                                    <option>Steel2</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please select a valid state.
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="validationCustom01">Contact "First Name"</label>
+                                <input type="text" class="form-control" id="validationCustom01" placeholder="e.g. Jhon"
+                                    required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="validationCustom02">Contact "Last Name"</label>
+                                <input type="text" class="form-control" id="validationCustom02" placeholder="e.g. Smith"
+                                    required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="validationCustom04">Contact "Phone Number"</label>
+                                <div class="input-group mb-2 mr-sm-2">
+                                    <div class="input-group-prepend  " style="background: #fff!important;">
+                                        <div class="btn-group ">
+                                            <!-- CURRENCY, BOOTSTRAP DROPDOWN -->
+                                            <!--<a class="btn btn-primary" href="javascript:void(0);">Currency</a>-->
+                                            <a class="dropdown-toggle px-1 pt-1"
+                                                style="border: 0.5px solid #B8C0D9; margin: 0 !important; border-right: none important; border-radius: 0.25rem;"
+                                                data-toggle="dropdown" href="#"><img
+                                                    src="./images/saudi-arabia.png"><span class="caret"></span></a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="javascript:void(0);">
+                                                        <img src="./images/saudi-arabia.png" /> AUD</a>
+                                                </li>
+                                                <li><a href="javascript:void(0);">
+                                                        <img src="./images/saudi-arabia.png" /> AUD</a>
+                                                </li>
+                                                <li><a href="javascript:void(0);">
+                                                        <img src="./images/saudi-arabia.png" /> AUD</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                    </div>
+                                    <input type="text" class="form-control font-weight-bold "
+                                        id="inlineFormInputGroupUsername2" placeholder="xxx-xx-xxxxxxxx">
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="validationCustom02">Contact "Position"</label>
+                                <input type="text" class="form-control" id="validationCustom02"
+                                    placeholder="e.g. Position" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="validationCustom01">Contact "Email"</label>
+                                <input type="text" class="form-control" id="validationCustom01"
+                                    placeholder="user@domain.com" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="validationCustom02">Company Website</label>
+                                <input type="text" class="form-control" id="validationCustom02"
+                                    placeholder="e.g. www.company.com" required>
+                                <div class="valid-feedback">
+                                    Looks good!
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <label for="exampleFormControlTextarea1">Please provide your product / Service
+                                    portfolio</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1"
+                                    placeholder="Lorem ipsum dolor sit amet, consetetur" rows="3"></textarea>
+                            </div>
+                            <div class="col-md-6 mb-3 ">
+                                <label class="mt-1 mb-3" for="exampleFormControlTextarea1 ">Product / Service
+                                    portfolio</label>
+
+                                <input type="file" variant="contained" component="label"
+                                    class="form-control d-flex justify-content-center align-items-center"
+                                    id="validationCustom02" required style="background: #fff;  height: 88px;" />
+
                             </div>
                         </div>
 
-                    </div>
-
-                    <div class="form-row">
-                        <div class="col-md-6 mb-3">
-                            <label for="validationCustom01">Contact "Email"</label>
-                            <input type="text" class="form-control" id="validationCustom01"
-                                placeholder="user@domain.com" required>
-                            <div class="valid-feedback">
-                                Looks good!
+                        <div class="form-row">
+                            <div class="col-md-6 mb-3">
+                                <button class="btn btn-primary px-5 w-100" type="submit"
+                                    style="background: #2F55D4!important; box-shadow: 0px 0px 27px #FFFFFFB0!important;">Submit
+                                    form</button>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <button class="btn btn-primary px-5 w-100"
+                                    style="background:#F8F9FA!important; color:#B0C2D0!important; border:none;box-shadow: 0px 0px 27px #FFFFFFB0;">cancle</button>
                             </div>
                         </div>
-                        <div class="col-md-6 mb-3">
-                            <label for="validationCustom02">Company Website</label>
-                            <input type="text" class="form-control" id="validationCustom02"
-                                placeholder="e.g. www.company.com" required>
-                            <div class="valid-feedback">
-                                Looks good!
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="form-row">
-                        <div class="col-md-6 mb-3">
-                            <label for="exampleFormControlTextarea1">Please provide your product / Service
-                                portfolio</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1"
-                                placeholder="Lorem ipsum dolor sit amet, consetetur" rows="3"></textarea>
-                        </div>
-                        <div class="col-md-6 mb-3 ">
-                            <label class="mt-1 mb-3" for="exampleFormControlTextarea1 ">Product / Service
-                                portfolio</label>
-
-                            <input type="file" variant="contained" component="label"
-                                class="form-control d-flex justify-content-center align-items-center"
-                                id="validationCustom02" required style="background: #fff;  height: 88px;" />
-
-                        </div>
-                    </div>
-
-                    <div class="form-row">
-                        <div class="col-md-6 mb-3">
-                            <button class="btn btn-primary px-5 w-100" type="submit"
-                                style="background: #2F55D4!important; box-shadow: 0px 0px 27px #FFFFFFB0;">Submit
-                                form</button>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <button class="btn btn-primary px-5 w-100" type="submit"
-                                style="background:#F8F9FA!important; color:#B0C2D0!important; border:none;box-shadow: 0px 0px 27px #FFFFFFB0;">cancle</button>
-                        </div>
-                    </div>
-
+                    </form>
                 </div>
             </div>
         </div>

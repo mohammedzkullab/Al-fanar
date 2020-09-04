@@ -3,26 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*
- <form class="form-inline my-2 my-lg-0 login-button">
-            <i class="fas fa-globe-asia mx-4 primery-color" style="cursor: pointer"></i>
-            <div class="dropdown border-0" style="background: transparent; outline: none!important;" name="" id="">
-                <button class="btn dropdown-toggle outline-none" type="button" data-toggle="dropdown"
-                    style="background: transparent !important;">Welcome Mahmoud</button>
 
-
-                <!-- options -->
-                <div class="dropdown-menu">
-                    <a href="" class="dropdown-item">go to profile <i class="far fa-user-circle ml-5"></i></a>
-                    <div class="dropdown-divider"></div>
-                    <a href="" class="dropdown-item">settings</a>
-                    <div class="dropdown-divider"></div>
-                    <a href="" class="dropdown-item " style="color: #ff6565;">logout</a>
-                </div>
-
-            </div>
-        </form>
-*/
 body{
     font-family: 'Montserrat', sans-serif !important;
     background: #F8FAFE!important;
@@ -68,7 +49,7 @@ a{
     box-shadow: 0px 18px 27px #2F55D438;
     color: #2F55D4 !important;
     height: 38px;
-    width: 302px;
+    
 }
 
 
@@ -90,15 +71,12 @@ nav{
 .hero{
     background: url(../images/bg.png) no-repeat center center/cover ;
     height: 100vh;
-    /* padding-top: 200px !important; */
 }
 .hero-1{
     background: url(../images/Group\ 9.png) no-repeat center  ;
 }
 .hero-2{
     background: #F8FAFE;
-    /* height: 100vh; */
-
 }
 
 .back{
@@ -148,7 +126,14 @@ nav{
 .border-none{
     border:none !important;
 }
+.inputs{
+    font-weight: 600 !important;
 
+}
+.inputs::placeholder{
+    color: #B8C0D9!important;
+    font-size: 15px!important;
+}
 
 
 

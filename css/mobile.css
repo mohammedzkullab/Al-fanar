@@ -1,5 +1,26 @@
+/*break point*/
+@media(max-width: 400px){
+    .res-heading {
+        font-size: 22px!important;
+    }
+    .res-p{
+        font-size: 15px !important;
+        text-align:center !important;
+        margin-top: 10px!important;
+    }
+    .res-button{
+        font-size: 12px !important;
+    }
+}
+
+
+
+
 /*  small queries */
 @media(max-width: 576px) {
+body{
+    overflow-x: hidden !important;
+}
 .login-button{
     display: none !important;
 }

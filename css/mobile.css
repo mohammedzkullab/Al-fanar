@@ -1,5 +1,8 @@
 /*break point*/
 @media(max-width: 400px){
+ body{
+        overflow-x: hidden !important;
+    }
     .res-heading {
         font-size: 22px!important;
     }
